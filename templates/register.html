@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='globals2.css') }}">
+</head>
+<body>
+    <form method="GET", action="/register">
+        <div class="frame">
+            <div class="div">
+              <div class="overlap-group">
+                <div class="text-wrapper">register</div>
+                <div class="group">
+                  <div class="button"></div>
+                  <div class="text-wrapper-2">USERNAME</div>
+                  <input type="text" id="username" name="username" required>
+                </div>
+                <img class="ed-o-neil" src="https://c.animaapp.com/e4qrsAEL/img/logo-removebg-preview-2.png" />
+              </div>
+              <div class="default-chip">
+                <div class="text-wrapper-3">
+                  <button type="submit">Register</button> 
+                </div>
+              </div>
+              <div class="group-2">
+                <div class="button-2"></div>
+                <p class="PASSWORD">
+                  <span class="span" id="input">PASSWORD</span>
+                  <input type="password" id="password" name="password" required>
+                  <span class="text-wrapper-4">&nbsp;</span></p>
+                <p class="p">Password must contain 6 characters</p>
+              </div>
+            </div>
+          </div>
+    </form>
+</body>
+</html>

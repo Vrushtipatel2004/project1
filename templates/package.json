@@ -1,0 +1,6 @@
+  {
+    "name": "sandpack-project",
+    "main": "dashboard.html",
+    "dependencies": {},
+    "devDependencies": {}
+  }

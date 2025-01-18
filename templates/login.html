@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style4.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='globals1.css') }}">
+</head>
+<body>
+    <form method="POST" action="/login"> 
+        <div class="frame">
+            <div class="div">
+              <div class="overlap-group">
+                <div class="text-wrapper">Log in</div>
+                <div class="group">
+                  <div class="button"></div>
+                  <div class="text-wrapper-2">USERNAME</div>
+                  <input type="text" id="username" name="username" required>
+                </div>
+                <img class="ed-o-neil" src="https://c.animaapp.com/e4qrsAEL/img/logo-removebg-preview-2.png" />
+              </div>
+              <div class="default-chip">
+                <div class="text-wrapper-3">
+                <button type="submit">Log In</button>
+                </div>
+              </div>
+              <div class="group-2">
+                <div class="button-2"></div>
+                <p class="PASSWORD"><span class="span">PASSWORD</span> 
+                  <input type="password" id="password" name="password" required>
+                  <span class="text-wrapper-4">&nbsp;</span></p>
+                <div class="text-wrapper-5">Forget Password ?</div>
+              </div>
+            </div>
+          </div>
+    </form>
+    {% if error %}
+        <p>{{ error }}</p>
+    {% endif %}
+</body>
+</html>
