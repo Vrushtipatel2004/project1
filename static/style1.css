@@ -1,0 +1,161 @@
+.frame {
+    background-color: #ddd8c4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #ddd8c4;
+    width: 1362px;
+    height: 700px;
+    position: relative;
+  }
+  
+  .frame .overlap-group {
+    position: absolute;
+    width: 302px;
+    height: 278px;
+    top: 18px;
+    left: 533px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 258px;
+    top: 150px;
+    left: 18px;
+    font-family: "Vollkorn SC", Helvetica;
+    font-weight: 400;
+    color: #102542;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.80px;
+    line-height: 48.0px;
+  }
+  
+  .frame .group {
+    position: absolute;
+    width: 302px;
+    height: 72px;
+    top: 206px;
+    left: 0;
+  }
+  
+  .frame .button {
+    position: absolute;
+    width: 300px;
+    height: 49px;
+    top: 23px;
+    left: 0;
+    background-color: #8984aa38;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 43px;
+    font-family: "Newsreader", Helvetica;
+    font-weight: 500;
+    color: #102542;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .frame .ed-o-neil {
+    position: absolute;
+    width: 200px;
+    height: 151px;
+    top: 0;
+    left: 48px;
+    background-blend-mode: darken;
+  }
+  
+  .frame .default-chip {
+    position: absolute;
+    width: 260px;
+    height: 58px;
+    top: 450px;
+    left: 551px;
+    background-color: #556f7a;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: absolute;
+    height: 21px;
+    top: 18px;
+    left: 71px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20.8px;
+    white-space: nowrap;
+  }
+  
+  .frame .group-2 {
+    position: absolute;
+    width: 304px;
+    height: 97px;
+    top: 325px;
+    left: 533px;
+  }
+  
+  .frame .button-2 {
+    position: absolute;
+    width: 300px;
+    height: 49px;
+    top: 24px;
+    left: 0;
+    background-color: #8883a938;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .frame .PASSWORD {
+    position: absolute;
+    top: 0;
+    left: 42px;
+    font-family: "Newsreader", Helvetica;
+    font-weight: 500;
+    color: #102542;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 16px;
+  }
+  
+  .frame .span {
+    letter-spacing: -0.03px;
+  }
+  
+  .frame .text-wrapper-4 {
+    font-size: 24px;
+    letter-spacing: -0.06px;
+    line-height: 24px;
+  }
+  
+  .frame .p {
+    position: absolute;
+    height: 16px;
+    top: 81px;
+    left: 27px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #102542;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15.6px;
+    white-space: nowrap;
+  }
+  

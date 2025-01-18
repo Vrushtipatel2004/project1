@@ -1,0 +1,471 @@
+.desktop {
+    background-color: #ddd8c4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: var(--bone);
+    overflow: hidden;
+    width: 1440px;
+    height: 3113px;
+    position: relative;
+  }
+  
+  .desktop .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 884px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 124px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 99px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .menu {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 1165px;
+  }
+  
+  .desktop .frame {
+    position: absolute;
+    width: 471px;
+    height: 50px;
+    top: 40px;
+    left: 391px;
+  }
+  
+  .desktop .logo-removebg {
+    position: absolute;
+    width: 191px;
+    height: 117px;
+    top: 7px;
+    left: 109px;
+    object-fit: cover;
+  }
+  
+  .desktop .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 775px;
+    top: 109px;
+    left: 0;
+  }
+  
+  .desktop .prep-better-ace {
+    position: absolute;
+    height: 250px;
+    top: 103px;
+    left: 194px;
+    background: linear-gradient(180deg, rgb(163, 123, 115) 0%, rgb(16, 37, 66) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 124.8px;
+  }
+  
+  .desktop .hero-removebg {
+    position: absolute;
+    width: 840px;
+    height: 651px;
+    top: 0;
+    left: 600px;
+    object-fit: cover;
+  }
+  
+  .desktop .blur {
+    position: absolute;
+    width: 1440px;
+    height: 235px;
+    top: 456px;
+    left: 0;
+    background-color: var(--bone);
+    filter: blur(100px);
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    height: 125px;
+    top: 650px;
+    left: 527px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #102542;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 124.8px;
+    white-space: nowrap;
+  }
+  
+  .desktop .group {
+    position: absolute;
+    width: 131px;
+    height: 56px;
+    top: 477px;
+    left: 203px;
+  }
+  
+  .desktop .div-wrapper {
+    position: relative;
+    width: 129px;
+    height: 56px;
+    background-color: #556f7ade;
+    border-radius: 15px;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    height: 52px;
+    top: 2px;
+    left: 7px;
+    font-family: "Abhaya Libre SemiBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 52px;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    height: 94px;
+    top: 1163px;
+    left: 105px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    height: 94px;
+    top: 1163px;
+    left: 435px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    height: 94px;
+    top: 1163px;
+    left: 813px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: absolute;
+    height: 94px;
+    top: 1163px;
+    left: 1145px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .desktop .overlap-3 {
+    position: absolute;
+    width: 1324px;
+    height: 850px;
+    top: 1500px;
+    left: 50px;
+  }
+  
+  .desktop .overlap-4 {
+    position: absolute;
+    width: 1324px;
+    height: 600px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .img {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .rectangle-2 {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    top: 250px;
+    left: 724px;
+    background-color: #d5b9b2;
+    border-radius: 52px;
+  }
+  
+  .desktop .image {
+    width: 539px;
+    height: 302px;
+    top: 48px;
+    left: 84px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-2 {
+    width: 475px;
+    height: 316px;
+    top: 284px;
+    left: 610px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .studymate-is-a {
+    position: absolute;
+    height: 174px;
+    top: 49px;
+    left: 25px;
+    font-family: "Abhaya Libre SemiBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+  }
+  
+  .desktop .the-design-is-clean {
+    position: absolute;
+    height: 116px;
+    top: 363px;
+    left: 966px;
+    font-family: "Abhaya Libre SemiBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+  }
+  
+  .desktop .overlap-5 {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    top: 500px;
+    left: 0;
+    background-image: url(https://c.animaapp.com/e4qrsAEL/img/rectangle-17.png);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .i-love-how-user {
+    position: absolute;
+    height: 203px;
+    top: 55px;
+    left: 50px;
+    font-family: "Abhaya Libre SemiBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+  }
+  
+  .desktop .image-3 {
+    width: 475px;
+    height: 316px;
+    top: 34px;
+    left: 125px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: absolute;
+    height: 125px;
+    top: 1353px;
+    left: 553px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #102542;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 124.8px;
+    white-space: nowrap;
+  }
+  
+  .desktop .vru {
+    position: absolute;
+    width: 200px;
+    height: 249px;
+    top: 900px;
+    left: 445px;
+  }
+  
+  .desktop .devin {
+    position: absolute;
+    width: 204px;
+    height: 249px;
+    top: 900px;
+    left: 795px;
+  }
+  
+  .desktop .heer {
+    position: absolute;
+    width: 201px;
+    height: 250px;
+    top: 900px;
+    left: 95px;
+    object-fit: cover;
+  }
+  
+  .desktop .overlap-6 {
+    position: absolute;
+    width: 1440px;
+    height: 756px;
+    top: 2400px;
+    left: 0;
+    background-color: #d5b9b2;
+  }
+  
+  .desktop .text-wrapper-8 {
+    position: absolute;
+    height: 29px;
+    top: 253px;
+    left: 801px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #556f7a;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    white-space: nowrap;
+  }
+  
+  .desktop .LDRP-institute-of {
+    position: absolute;
+    height: 58px;
+    top: 176px;
+    left: 801px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #556f7a;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+  }
+  
+  .desktop .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 119px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    position: absolute;
+    top: 198px;
+    left: 450px;
+  }
+  
+  .desktop .text-wrapper-9 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #556f7a;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+  }
+  
+  .desktop .text-wrapper-10 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #556f7a;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+  }
+  
+  .desktop .text-wrapper-11 {
+    position: absolute;
+    height: 47px;
+    top: 115px;
+    left: 450px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #102542;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+    white-space: nowrap;
+  }
+  
+  .desktop .logo-removebg-2 {
+    position: absolute;
+    width: 382px;
+    height: 400px;
+    top: 13px;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-12 {
+    position: absolute;
+    height: 47px;
+    top: 115px;
+    left: 800px;
+    font-family: "Almendra", Helvetica;
+    font-weight: 400;
+    color: #102542;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+    white-space: nowrap;
+  }
+  
+  .desktop .pars {
+    position: absolute;
+    width: 200px;
+    height: 249px;
+    top: 900px;
+    left: 1145px;
+  }
+  
